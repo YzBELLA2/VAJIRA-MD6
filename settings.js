@@ -1,4 +1,4 @@
-const fs = require('fs');
+yconst fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=kSFUHSCL#4hZ58LDhY7NwrOfV4xBbTBs5Vc6767brcBI3B7vWFBw' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=tKMSwLYK#Ns9yWFn3hGUD616cbQpvpG5BdZg_UtbKDx6AP9BicY4' : process.env.SESSION_ID,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '' : process.env.OWNER_NUMBER,
 N_JID: process.env.N_JID=== undefined ? '‌': process.env.N_JID,    
 PREFIX: process.env.PREFIX || '.' ,
